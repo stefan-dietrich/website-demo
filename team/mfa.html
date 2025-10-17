@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Gynäkologische Gemeinschaftspraxis Iffezheim</title>
-  <link rel="stylesheet" href="/styles.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MFA – Gynäkologische Gemeinschaftspraxis Iffezheim</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-<header class="sticky">
-  <div class="container nav" style="justify-content:space-between">
-    <a class="logo" href="/index.html">
-      <span class="logo-badge">
-<svg viewBox="0 0 120 120" width="28" height="28" aria-hidden="true">
+<body class="min-h-screen bg-white text-slate-900">
+  <header class="sticky top-0 z-40 backdrop-blur bg-white/70 border-b">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="/index.html" class="flex items-center gap-3">
+        <span class="h-9 w-9 rounded-2xl bg-teal-50 flex items-center justify-center shadow-sm ring-1 ring-teal-200">
+          
+<svg viewBox="0 0 120 120" class="h-7 w-7" aria-hidden="true">
   <circle cx="60" cy="60" r="52" fill="none" stroke="#186E6E" stroke-width="6" />
   <g fill="none" stroke="#186E6E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
     <path d="M60 92V72" />
@@ -20,41 +21,64 @@
     <path d="M60 72c-10-10-14-22-14-30 0-10 6-18 14-22 8 4 14 12 14 22 0 8-4 20-14 30z" />
   </g>
 </svg>
-</span>
-      <strong>Gynäkologische Gemeinschaftspraxis Iffezheim</strong>
-    </a>
-    <nav class="nav">
-      <a href="/leistungen/index.html">Leistungen</a>
-      <a href="/team/index.html">Team</a>
-      <a href="/index.html#sprechzeiten">Sprechzeiten</a>
-      <a href="/index.html#kontakt">Kontakt</a>
-      <a href="/index.html#infos">Infos</a>
-    </nav>
-  </div>
-</header>
 
-<main class="container">
-  <p><a href="/team/index.html">← Zur Teamübersicht</a></p>
-  <h1 class="h1">Medizinische Fachangestellte (MFA)</h1>
-  <div class="grid grid-3" style="margin-top:16px">
-    <div class="card"><div class="content"><strong>C. Beispiel, MFA</strong><p class="small">Anmeldung, Abrechnung, Qualitätsmanagement.</p></div></div>
-    <div class="card"><div class="content"><strong>D. Beispiel, MFA</strong><p class="small">Assistenz, Labor, Impfmanagement.</p></div></div>
+        </span>
+        <span class="font-semibold">Gynäkologische Gemeinschaftspraxis Iffezheim</span>
+      </a>
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="/leistungen/index.html" class="hover:text-teal-800">Leistungen</a>
+        <a href="/team/index.html" class="hover:text-teal-800">Team</a>
+        <a href="/index.html#sprechzeiten" class="hover:text-teal-800">Sprechzeiten</a>
+        <a href="/index.html#kontakt" class="hover:text-teal-800">Kontakt</a>
+        <a href="/index.html#infos" class="hover:text-teal-800">Infos</a>
+      </nav>
+      <div class="hidden md:flex gap-2">
+        <a class="inline-flex items-center gap-2 rounded-2xl px-4 py-2 text-sm font-medium bg-teal-700 text-white hover:bg-teal-800" href="tel:+497229181842">Anrufen</a>
+        <a class="inline-flex items-center gap-2 rounded-2xl px-4 py-2 text-sm font-medium border border-teal-600 text-teal-700 hover:bg-teal-50" href="mailto:praxis@gyniff.de">Termin per E‑Mail</a>
+      </div>
+    </div>
+  </header>
+
+<main class="max-w-6xl mx-auto px-4 py-10">
+  <p><a href="/team/index.html" class="inline-flex items-center gap-2 rounded-2xl px-4 py-2 text-sm font-medium border border-teal-600 text-teal-700 hover:bg-teal-50">← Zur Teamübersicht</a></p>
+  <h1 class="text-3xl font-semibold mt-4">Medizinische Fachangestellte (MFA)</h1>
+  <div class="grid md:grid-cols-3 gap-6 mt-6">
+    <div class="rounded-2xl border bg-white shadow-sm"><div class="p-6">
+      <div class="aspect-square w-full rounded-xl bg-white border grid place-items-center text-slate-400">
+        <svg viewBox="0 0 24 24" class="h-10 w-10" aria-hidden="true"><path d="M12 12a5 5 0 110-10 5 5 0 010 10zm-7 9a7 7 0 1114 0H5z" fill="#94a3b8"/></svg>
+      </div>
+      <div class="mt-4">
+        <h3 class="font-medium">C. Beispiel, MFA</h3>
+        <p class="text-sm text-slate-600">Anmeldung, Abrechnung, Qualitätsmanagement.</p>
+      </div>
+    </div></div>
+    <div class="rounded-2xl border bg-white shadow-sm"><div class="p-6">
+      <div class="aspect-square w-full rounded-xl bg-white border grid place-items-center text-slate-400">
+        <svg viewBox="0 0 24 24" class="h-10 w-10" aria-hidden="true"><path d="M12 12a5 5 0 110-10 5 5 0 010 10zm-7 9a7 7 0 1114 0H5z" fill="#94a3b8"/></svg>
+      </div>
+      <div class="mt-4">
+        <h3 class="font-medium">D. Beispiel, MFA</h3>
+        <p class="text-sm text-slate-600">Assistenz, Labor, Impfmanagement.</p>
+      </div>
+    </div></div>
   </div>
 </main>
 
-<footer class="footer">
-  <div class="container cols">
-    <div>
-      <p class="small"><strong>Gynäkologische Gemeinschaftspraxis Iffezheim</strong></p>
-      <p class="small">Hügelsheimer Str. 4, 76473 Iffezheim</p>
-      <p class="small">Telefon 07229 181842 · Fax 07229 181843 · <a href="mailto:praxis@gyniff.de">praxis@gyniff.de</a></p>
+  <footer class="border-t">
+    <div class="max-w-6xl mx-auto px-4 py-10 grid md:grid-cols-2 gap-6 items-center">
+      <div class="space-y-2 text-sm text-slate-600">
+        <p class="font-medium">Gynäkologische Gemeinschaftspraxis Iffezheim</p>
+        <p class="flex items-center gap-2">Hügelsheimer Str. 4, 76473 Iffezheim</p>
+        <p class="flex items-center gap-2">07229 181842 · praxis@gyniff.de</p>
+      </div>
+      <div class="flex md:justify-end gap-2">
+        <a class="inline-flex items-center gap-2 rounded-2xl px-4 py-2 text-sm font-medium border border-teal-600 text-teal-700 hover:bg-teal-50" href="/index.html#impressum">Impressum</a>
+        <a class="inline-flex items-center gap-2 rounded-2xl px-4 py-2 text-sm font-medium border border-teal-600 text-teal-700 hover:bg-teal-50" href="/index.html#datenschutz">Datenschutz</a>
+      </div>
     </div>
-    <div style="text-align:right">
-      <a class="btn-secondary btn" href="/index.html#impressum">Impressum</a>
-      <a class="btn-secondary btn" href="/index.html#datenschutz">Datenschutz</a>
+    <div class="text-center text-xs text-slate-500 pb-8">
+      © Gynäkologische Gemeinschaftspraxis Iffezheim
     </div>
-  </div>
-  <div class="container small" style="text-align:center;margin-top:8px">© Gynäkologische Gemeinschaftspraxis Iffezheim</div>
-</footer>
+  </footer>
 </body>
 </html>
