@@ -1,0 +1,1 @@
+Static HTML export of the practice website. Place it at the root of a static host (e.g., Netlify, Vercel, or any file server).
